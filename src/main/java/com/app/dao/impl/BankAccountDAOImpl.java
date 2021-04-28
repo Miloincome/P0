@@ -16,7 +16,7 @@ import java.util.List;
 
 public class BankAccountDAOImpl implements BankAccountDAO {
 
-    @Override
+    @Override//Creates Account
     public BankAccount createBankAccount(BankAccount bankAccount, User user) throws SQLException {
 
         Connection connection = PostgreConnection.getConnection();
@@ -44,7 +44,7 @@ public class BankAccountDAOImpl implements BankAccountDAO {
     }
 
 
-    @Override
+    @Override//finds account
     public boolean findBankAccount(BankAccount bankAccount) throws SQLException {
         boolean result = false;
         Connection connection = PostgreConnection.getConnection();
@@ -61,7 +61,7 @@ public class BankAccountDAOImpl implements BankAccountDAO {
         return result;
     }
 
-    @Override
+    @Override //turns bankaccount singleton to the targeted record
     public BankAccount setBankAccount(BankAccount bankAccount) throws SQLException {
         Connection connection = PostgreConnection.getConnection();
         String sql = "select b.accountnumber,b.balance,b.accounttype,b.status,b.routingnumber,b.userid,b.accountname from bankapplocal.bankaccount b where accountnumber = ?;";
@@ -80,7 +80,7 @@ public class BankAccountDAOImpl implements BankAccountDAO {
         return bankAccount;
     }
 
-    @Override
+    @Override //updates account status
     public void approveAccount(BankAccount bankAccount) throws SQLException {
         Connection connection = PostgreConnection.getConnection();
         String sql ="update bankapplocal.bankaccount set status ='Approved' where accountnumber = ?;";
@@ -94,6 +94,7 @@ public class BankAccountDAOImpl implements BankAccountDAO {
         return;
 
     }
+    @Override//updates bankaccount status to rejected
     public void rejectAccount(BankAccount bankAccount) throws SQLException {
         Connection connection = PostgreConnection.getConnection();
         String sql ="update bankapplocal.bankaccount set status ='Rejected' where accountnumber = ?;";
@@ -107,7 +108,7 @@ public class BankAccountDAOImpl implements BankAccountDAO {
         return;
     }
 
-    @Override
+    @Override //updates
     public List<Transaction> viewTransactions(BankAccount bankAccount) throws SQLException {
         List<Transaction> transactionList=new ArrayList<>();
         Connection connection = PostgreConnection.getConnection();

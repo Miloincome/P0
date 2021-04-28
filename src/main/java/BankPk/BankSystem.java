@@ -33,7 +33,7 @@ public class BankSystem {
         BankAccount newAccount = new BankAccount();//singleton
         BankAccountDAO baDAO = new BankAccountDAOImpl();
 
-        Transaction newTrans = new Transaction();
+        Transaction newTrans = new Transaction();//singleton
         TransactionDAO transDAO = new TransactionDAOImpl();
 
         boolean correctBalance = false;
@@ -46,8 +46,8 @@ public class BankSystem {
             System.out.println(
                     "Welcome to the Bank App" +
                             "\nWould you like to Login as Employee, Customer or Create an Account?" +
-                            "\nType Login to Login" +
-                            "\nType Create to Create Account");
+                            "\nType Login to Login," +
+                            "Type Create to Create Account");
             String selection = input.nextLine();
 
             if (selection.equals("Login"))//if user logs in
@@ -74,7 +74,7 @@ public class BankSystem {
                     System.out.println("Your User Account Details: " + newUser.toString());
                     while (loggedIn == true) {
                         if (newUser.getUserType().equals("Customer")) {
-                            do {
+
                                 customerLoggedIn = true;
                                 System.out.println("Do you wish to view or Apply for a new bank account? or Exit?");
                                 System.out.println("Enter V for view accounts, Enter A to apply, or E to Exit");
@@ -220,12 +220,10 @@ public class BankSystem {
                                 else {
                                     System.out.println("Invalid selection");
                                 }//if you dont enter the above
-                            } while (customerLoggedIn == true);
                             loggedIn = false;
                         }//When logged in as customer
                         else if (newUser.getUserType().equals("Employee")) {
-                            do {
-                                employeeLoggedIn = true;
+
                                 System.out.println("Do you wish to view customer's bank accounts? or Exit?");
                                 System.out.println("Enter V for view customers, or E to Exit");
                                 selection = input.nextLine();
@@ -337,7 +335,7 @@ public class BankSystem {
                                 } else {
                                     System.out.println("Invalid Selection. Please refer to the selection");
                                 }
-                            } while (employeeLoggedIn == true);
+
                             loggedIn=false;
                         }//When logged in as employee.
 

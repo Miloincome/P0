@@ -18,7 +18,6 @@ public class UserDAOImpl implements UserDAO {
 
         Connection connection = PostgreConnection.getConnection();
 
-
         //INSERT INTO bankapp.user(username,fullname ,usertype,password) VALUES("username","fullname","Customer","password");
         String sql = "INSERT INTO bankapplocal.user(" +
                 "username,fullname,usertype,password)" +
@@ -38,10 +37,9 @@ public class UserDAOImpl implements UserDAO {
                 user.setUserId(resultSet.getInt(1));
             }
         }
-
         return user;
     }
-
+    @Override
     public boolean findUser(User user) throws SQLException {
         boolean result = false;
         Connection connection = PostgreConnection.getConnection();
@@ -61,7 +59,6 @@ public class UserDAOImpl implements UserDAO {
 
     @Override
     public User setUser(User user) throws SQLException {
-
         Connection connection = PostgreConnection.getConnection();
         String sql = "select u.userid,u.username,u.fullname,u.usertype,u.password from bankapplocal.user u where username = ?;";
         PreparedStatement preparedStatement = connection.prepareStatement(sql);

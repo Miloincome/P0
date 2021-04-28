@@ -1,13 +1,13 @@
 com/app/dbutil/PostgreConnection.java
  com.app.dbutil.PostgreConnection
-BankPk/Pojo.java
- BankPk.Pojo
+com/app/dao/impl/TransactionDAOImpl.java
+ com.app.dao.impl.TransactionDAOImpl
 com/app/model/User.java
  com.app.model.User
 com/app/BusinessException.java
  com.app.BusinessException
-com/app/dao/impl/UserDAOImpl.java
- com.app.dao.impl.UserDAOImpl
+com/app/dao/TransactionDAO.java
+ com.app.dao.TransactionDAO
 com/app/dao/UserDAO.java
  com.app.dao.UserDAO
 com/app/model/BankAccount.java
@@ -18,10 +18,8 @@ com/app/model/Transaction.java
  com.app.model.Transaction
 com/app/dao/BankAccountDAO.java
  com.app.dao.BankAccountDAO
-com/app/dao/TransactionDAO.java
- com.app.dao.TransactionDAO
-com/app/dao/impl/TransactionDAOImpl.java
- com.app.dao.impl.TransactionDAOImpl
+com/app/dao/impl/UserDAOImpl.java
+ com.app.dao.impl.UserDAOImpl
 BankPk/BankSystem.java
  BankPk.BankSystem
 BankPk/Main.java

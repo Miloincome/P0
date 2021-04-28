@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BetterSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-28T17:09:46" hostname="DESKTOP-KJ0S75Q" time="0.167">
+  <properties/>
+  <testcase name="testPrintBankList()" classname="BetterSystemTest" time="0.167"/>
+  <system-out><![CDATA[Connection/Ping Success
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
