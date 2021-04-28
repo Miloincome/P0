@@ -1,0 +1,10 @@
+[TRACE]         -{org.log4j.demo.Main}           Hello from TRACE          2021-04-16 15:59:15,733{MMM-dd-yy EEEE z HH:mm:ss
+[DEBUG]         -{org.log4j.demo.Main}           Hello from DEBUG          2021-04-16 15:59:15,734{MMM-dd-yy EEEE z HH:mm:ss
+[INFO]         -{org.log4j.demo.Main}           Hello from INFO          2021-04-16 15:59:15,735{MMM-dd-yy EEEE z HH:mm:ss
+[WARN]         -{org.log4j.demo.Main}           Hello from WARN          2021-04-16 15:59:15,735{MMM-dd-yy EEEE z HH:mm:ss
+[ERROR]         -{org.log4j.demo.Main}           Hello from ERROR          2021-04-16 15:59:15,735{MMM-dd-yy EEEE z HH:mm:ss
+[FATAL]         -{org.log4j.demo.Main}           Hello from FATAL          2021-04-16 15:59:15,735{MMM-dd-yy EEEE z HH:mm:ss
+[INFO]         -{org.log4j.demo.service.Service}           service1 was called with val.testService1          2021-04-16 15:59:15,744{MMM-dd-yy EEEE z HH:mm:ss
+[INFO]         -{org.log4j.demo.service.Service}           Was done successfully          2021-04-16 15:59:15,744{MMM-dd-yy EEEE z HH:mm:ss
+[INFO]         -{org.log4j.demo.service.Service}           service1 was called with val.testservice2          2021-04-16 15:59:15,744{MMM-dd-yy EEEE z HH:mm:ss
+[INFO]         -{org.log4j.demo.service.Service}           Was done successfully          2021-04-16 15:59:15,744{MMM-dd-yy EEEE z HH:mm:ss

@@ -1,0 +1,20 @@
+
+>
+java:S1068"(Remove this unused "name" private field.(Λ¥Ό
+l	java:S116"RRename this field "Balance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(υμ’μÿÿÿÿÿ
+G
+java:S1068	"1Remove this unused "accountNumber" private field.(£•¤
+E
+java:S1128"*Remove this unused import 'java.sql.Time'.(άε»‰ώÿÿÿÿ
+F
+java:S1068"+Remove this unused "Balance" private field.(υμ’μÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Πεύÿÿÿÿ
+E
+java:S1068"/Remove this unused "accountType" private field.(΅Όη
+L
+java:S1068
+"1Remove this unused "routingNumber" private field.(†ψωÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™”€ωÿÿÿÿ
+l
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(­Ά

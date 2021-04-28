@@ -1,0 +1,12 @@
+
+q
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ïé÷øıÿÿÿÿ
+G
+java:S1068
+",Remove this unused "lastName" private field.(ºàÑïúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠĞåıÿÿÿÿ
+k	java:S116"QRename this field "UserId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ìçúÿÿÿÿ
+C
+java:S1068	"-Remove this unused "firstName" private field.(š„¦¿
+E
+java:S1068"*Remove this unused "UserId" private field.(¿Ìçúÿÿÿÿ

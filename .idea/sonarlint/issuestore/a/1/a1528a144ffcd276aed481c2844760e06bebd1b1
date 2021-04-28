@@ -1,0 +1,11 @@
+
+I
+java:S1068"'Remove this unused "log" private field.(õı¥Ôùÿÿÿÿ8µ¯£/
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ÀÛš÷ùÿÿÿÿ8ËÓˆ¹/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠĞåıÿÿÿÿ8ù©©/
+O
+java:S3416"-Update this logger to use "BankSystem.class".(õı¥Ôùÿÿÿÿ8µ¯£/
+
+java:S1186
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô¾»ö8ô©‹ù/

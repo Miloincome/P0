@@ -1,0 +1,11 @@
+
+C
+java:S1068"(Remove this unused "date" private field.(§ó®Øıÿÿÿÿ
+?
+java:S1068"*Remove this unused "amount" private field.(œ÷‘_
+C
+java:S1068
+"(Remove this unused "type" private field.(–î†ûÿÿÿÿ
+J
+java:S1068	"/Remove this unused "description" private field.(ÇÓæâıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠĞåıÿÿÿÿ
